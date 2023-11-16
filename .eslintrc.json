@@ -1,0 +1,28 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "requireConfigFile": false,
+    "ecmaVersion": 2019,
+    "sourceType": "module"
+  },
+  "plugins": [],
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:svelte/recommended"
+  ],
+  "overrides": [
+    {
+      "files": ["**/*.svelte"],
+      "parser": "svelte-eslint-parser"
+    }
+  ],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
