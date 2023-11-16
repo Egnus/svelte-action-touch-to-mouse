@@ -10,7 +10,6 @@ const name = pkg.name
   .replace(/^(@\S+\/)?(svelte-)?(\S+)/, '$3')
   .replace(/^\w/, (m) => m.toUpperCase())
   .replace(/-\w/g, (m) => m[1].toUpperCase());
-console.log('🚀 ~ file: rollup.config.js:13 ~ name:', name);
 
 export default {
   input: 'src/index.ts',
