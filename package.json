@@ -1,6 +1,6 @@
 {
   "name": "svelte-action-touch-to-mouse",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Svelte action that converts automatically touch events into mouse events",
   "homepage": "https://github.com/Egnus/svelte-action-touch-to-mouse",
   "bugs": "https://github.com/Egnus/svelte-action-touch-to-mouse/issues",
@@ -80,7 +80,7 @@
     "dist"
   ],
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=16.0.0"
   },
   "peerDependencies": {
     "@babel/core": "^7.23.3",
